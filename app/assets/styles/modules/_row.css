@@ -92,7 +92,7 @@
 
 
     /*Begin equal heigth rules*/
-    &--equal-height-at-medium{
+    .flexbos &--equal-height-at-medium{
         @mixin atMedium{
             display:flex;
         }
@@ -102,7 +102,7 @@
         }
 
     }
-    &--equal-height-at-large{
+    .flexbos &--equal-height-at-large{
         @mixin atLarge{
             display:flex;
         }
